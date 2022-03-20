@@ -10,7 +10,7 @@
 ![landing page](https://storage.googleapis.com/jason-paff-portfolio/Images/portfolio/projects_page.png)
 
 ### Skills Page
-![skills page](https://storage.googleapis.com/jason-paff-portfolio/Images/portfolio/projects_page.png)
+![skills page](https://storage.googleapis.com/jason-paff-portfolio/Images/portfolio/skills_page.png)
 
 ### Technology Stack
 
