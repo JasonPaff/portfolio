@@ -42,7 +42,7 @@ export default function Splatter() {
                         type="button"
                         onClick={() => {
                             setIsShowing(!isShowing);
-                            setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/WhatsForDinner/dinner-demo.gif');
+                            setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/splatter/splatter_demo.gif');
                             setTitle('Splatter Demo');
                             setDescription('');
                         }}
@@ -99,6 +99,18 @@ export default function Splatter() {
                         }}
                         modules={[Pagination, Navigation]}
                         className="mySwiper rounded-lg">
+                        <SwiperSlide>
+                            <img
+                                src="https://storage.googleapis.com/jason-paff-portfolio/Images/splatter/splatter_demo.gif"
+                                alt="demo"
+                                onClick={() => {
+                                    setIsShowing(!isShowing);
+                                    setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/splatter/splatter_demo.gif');
+                                    setTitle('Live Demo');
+                                    setDescription("");
+                                }}
+                            />
+                        </SwiperSlide>
                         <SwiperSlide>
                             <img
                                 src="https://storage.googleapis.com/jason-paff-portfolio/Images/Splatter/login_page.png"
