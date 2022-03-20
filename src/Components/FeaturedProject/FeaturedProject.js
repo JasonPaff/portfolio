@@ -111,18 +111,6 @@ export default function FeaturedProject() {
                     </SwiperSlide>
                     <SwiperSlide>
                         <img
-                            src="https://storage.googleapis.com/jason-paff-portfolio/Images/TournamentLife/main-window.png"
-                            alt="main window"
-                            onClick={() => {
-                                setIsShowing(!isShowing);
-                                setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/TournamentLife/main-window.png');
-                                setTitle('Main Tournament Life View');
-                                setDescription('Tournament Life was designed from the ground up for ease of use while playing multiple online tournaments.');
-                            }}
-                        />
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <img
                             src="https://storage.googleapis.com/jason-paff-portfolio/Images/TournamentLife/tournament-manager.png"
                             alt="tournament creator"
                             onClick={() => {
@@ -178,6 +166,18 @@ export default function FeaturedProject() {
                                 setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/TournamentLife/session-graph.png');
                                 setTitle('Sessions Graph View');
                                 setDescription("Tournament Life included many ways to display your results. Below is overall profit graphed by overall sessions instead of individual tournaments.");
+                            }}
+                        />
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <img
+                            src="https://storage.googleapis.com/jason-paff-portfolio/Images/TournamentLife/main-window.png"
+                            alt="main window"
+                            onClick={() => {
+                                setIsShowing(!isShowing);
+                                setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/TournamentLife/main-window.png');
+                                setTitle('Main Tournament Life View');
+                                setDescription('Tournament Life was designed from the ground up for ease of use while playing multiple online tournaments.');
                             }}
                         />
                     </SwiperSlide>
