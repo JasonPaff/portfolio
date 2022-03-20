@@ -79,6 +79,12 @@ export default function WhatsForDinner() {
                             under construction
                         </p>
                     </div>
+                    <div className="mt-4">
+                        <h1 className="text-white underline">How it was built</h1>
+                        <p className="text-gray-300">
+                            under construction
+                        </p>
+                    </div>
                 </div>
                 <div className="mt-16">
                     <Swiper
