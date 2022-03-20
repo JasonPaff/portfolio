@@ -99,7 +99,7 @@ export default function EtsyClone() {
                         </p>
                     </div>
                 </div>
-                <div className="sm:w-[48rem] sm:h-[36rem] mt-16">
+                <div className="sm:w-[48rem] sm:h-[42rem] mt-16">
                     <Swiper
                         navigation={true}
                         loop={true}
