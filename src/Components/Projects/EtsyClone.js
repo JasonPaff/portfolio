@@ -91,7 +91,8 @@ export default function EtsyClone() {
                         <h1 className="text-white underline">How it was built</h1>
                         <p className="text-gray-300">
                             Etsy Clone was built over one week by a two man team for presentation during a full stack
-                            developer bootcamp. The website is served entirely from a back-end node.js/express server.
+                            developer bootcamp. The website is served entirely from a back-end node.js/express server. The
+                            user dashboard allows for full CRUD operations to be performed using a RESTful api implementation.
                             The pages themselves are built using mustache/handlebar templates with tailwindCSS providing
                             the styling. A postgres database with sequelize orm is providing the data management. Api integrations
                             are stripe api for payment processing and google auth for google login integrations.

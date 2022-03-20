@@ -72,31 +72,33 @@ export default function BlazorECommerce() {
                     <div className="mt-4">
                         <h1 className="text-white underline">What it is</h1>
                         <p className="text-gray-300">
-                            ECommerce is a proof of concept website that was created to showcase Asp.Net & Blazor
-                            knowledge.
-                            The site uses the MVC architecture and numerous other best practices such as JWT
-                            authentication and Dependency Injection. Data management is with SQL Server and Entity
-                            Framework
-                            Core providing the ORM. Stripe checkout was integrated using WebHooks to fulfill orders.
-                            The admin dashboard allows for full CRUD operations to be performed on the products for that
-                            store in the database
-                            while the front end interacts with the back end through a full RESTful API implementation.
+                            ECommerce is a proof of concept website that was created as a full stack side project to showcase
+                            Asp.Net & Blazor knowledge. Users are able to login/register for an account. Shopping carts are
+                            provided to both logged in accounts and guest accounts. User are able to find products using the search
+                            bar or selecting categories from the navigation bar. A dashboard for logged in users allows password
+                            and address information to be changed and order history to be viewed.
                         </p>
                     </div>
                     <div className="mt-4">
                         <h1 className="text-white underline">How it works</h1>
                         <p className="text-gray-300">
-                            under construction
+                            Customers utilize the search bar or navigation categories to find products to buy then add them to
+                            their shopping cart and checkout. Users can continue as a guest or create an account to save
+                            their shopping cart for a return visit.
                         </p>
                     </div>
                     <div className="mt-4">
                         <h1 className="text-white underline">How it was built</h1>
                         <p className="text-gray-300">
-                            under construction
+                            ECommerce was built in C# using the asp.net blazor framework under a MVC architecture. Data management
+                            is done with SQL server and entity framework orm. Stripe api was integrated using WebHooks
+                            for payment processing. The admin dashboard allows for full CRUD operations to be performed on the
+                            products in the database using a RESTful api implementation. Authentication is done using JSON web tokens.
+                            The front-end was built in cshtml with tailwindCSS styling.
                         </p>
                     </div>
                 </div>
-                <div className="sm:w-[38rem] sm:h-[30rem] mt-16">
+                <div className="mt-16">
                     <Swiper
                         navigation={true}
                         loop={true}
@@ -122,13 +124,37 @@ export default function BlazorECommerce() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
-                                src="https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/blazor.png"
+                                src="https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/products.png"
                                 alt="products page"
                                 onClick={() => {
                                     setIsShowing(!isShowing);
-                                    setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/blazor.png');
+                                    setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/products.png');
                                     setTitle('Search Pagination Example');
                                     setDescription("Searching for a word/phrase will return every item title/description containing that word/phrase, paginated.");
+                                }}
+                            />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img
+                                src="https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/home.png"
+                                alt="search results page"
+                                onClick={() => {
+                                    setIsShowing(!isShowing);
+                                    setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/home.png');
+                                    setTitle('Search Results');
+                                    setDescription("");
+                                }}
+                            />
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <img
+                                src="https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/pages.png"
+                                alt="home page"
+                                onClick={() => {
+                                    setIsShowing(!isShowing);
+                                    setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/pages.png');
+                                    setTitle('Home Page');
+                                    setDescription("");
                                 }}
                             />
                         </SwiperSlide>
@@ -141,54 +167,6 @@ export default function BlazorECommerce() {
                                     setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/blazorJWT.png');
                                     setTitle('JWT Example');
                                     setDescription("Shows a JWT being utilized for authentication");
-                                }}
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img
-                                src="https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/blazorcart.png"
-                                alt="shopping cart"
-                                onClick={() => {
-                                    setIsShowing(!isShowing);
-                                    setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/blazorcart.png');
-                                    setTitle('Shopping Cart');
-                                    setDescription("");
-                                }}
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img
-                                src="https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/blazororders.png"
-                                alt="order history"
-                                onClick={() => {
-                                    setIsShowing(!isShowing);
-                                    setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/blazororders.png');
-                                    setTitle('Completed Orders History');
-                                    setDescription("");
-                                }}
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img
-                                src="https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/blazors.png"
-                                alt="search results page"
-                                onClick={() => {
-                                    setIsShowing(!isShowing);
-                                    setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/blazors.png');
-                                    setTitle('Search Results');
-                                    setDescription("");
-                                }}
-                            />
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <img
-                                src="https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/homeproducts.png"
-                                alt="home page"
-                                onClick={() => {
-                                    setIsShowing(!isShowing);
-                                    setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/homeproducts.png');
-                                    setTitle('Home Page');
-                                    setDescription("");
                                 }}
                             />
                         </SwiperSlide>
