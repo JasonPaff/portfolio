@@ -19,14 +19,13 @@ export default function EtsyClone() {
 
     return (
         <>
-            <div
-                className="max-w-2xl mx-auto py-4 px-4 grid grid-cols-1 gap-y-16
-                gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+            <div className="max-w-2xl mx-auto py-4 px-4 grid grid-cols-1 gap-y-16
+                    gap-x-8 sm:px-6 sm:py-8 lg:max-w-screen-2xl lg:px-8 lg:grid-cols-2">
                 <div>
                     <h2 className="mb-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
                         Etsy Clone
                     </h2>
-                    <h2 className="text-lg text-gray-400 mb-2">
+                    <h2 className="text-lg text-sky-500 mb-2">
                         A community driven ecommerce experience.
                     </h2>
                     <BlueHoverButton
@@ -100,7 +99,7 @@ export default function EtsyClone() {
                         </p>
                     </div>
                 </div>
-                <div className="sm:w-[48rem] sm:h-[42rem] mt-16">
+                <div className="mt-16">
                     <Swiper
                         navigation={true}
                         loop={true}

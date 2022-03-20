@@ -26,7 +26,7 @@ export default function WhatsForDinner() {
                     <h2 className="mb-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
                         Whats For Dinner?
                     </h2>
-                    <h2 className="text-lg text-gray-400 mb-2">
+                    <h2 className="text-lg text-sky-500 mb-2">
                         An app to connect ingredients in your fridge to recipes found online.
                     </h2>
                     <BlueHoverButton

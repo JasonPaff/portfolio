@@ -26,7 +26,7 @@ export default function BlazorECommerce() {
                     <h2 className="mb-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
                         Blazor ECommerce
                     </h2>
-                    <h2 className="text-lg text-gray-400 mb-2">
+                    <h2 className="text-lg text-sky-500 mb-2">
                         A simple ecommerce solution built with asp.net blazor.
                     </h2>
                     <BlueHoverButton

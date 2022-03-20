@@ -86,7 +86,7 @@ export default function FeaturedProject() {
                 </div>
             </div>
 
-            <div className="sm:w-[42rem] sm:h-[38rem] mt-16">
+            <div className="mt-16">
                 <Swiper
                     navigation={true}
                     loop={true}

@@ -1407,24 +1407,8 @@ select {
     height: 24rem;
   }
 
-  .sm\:h-\[38rem\] {
-    height: 38rem;
-  }
-
-  .sm\:h-\[42rem\] {
-    height: 42rem;
-  }
-
-  .sm\:w-\[42rem\] {
-    width: 42rem;
-  }
-
   .sm\:w-56 {
     width: 14rem;
-  }
-
-  .sm\:w-\[48rem\] {
-    width: 48rem;
   }
 
   .sm\:translate-y-0 {
@@ -1559,6 +1543,10 @@ select {
 
   .lg\:max-w-7xl {
     max-width: 80rem;
+  }
+
+  .lg\:max-w-screen-2xl {
+    max-width: 1536px;
   }
 
   .lg\:grid-cols-2 {
