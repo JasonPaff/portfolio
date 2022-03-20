@@ -92,7 +92,7 @@ export default function Splatter() {
                             a full stack development bootcamp. The front-end was built in javascript using the react framework with redux.
                             CSS stying was provided by TailwindCSS utilizing libraries such as headlessUI and HeroIcons. The ticket statistic
                             charts were created using the recharts react library. Drag and drop functionality for saving screenshots with a
-                            ticket was provided by react dropzone. The back-end was built using apollo-server and utilized graphql for the
+                            ticket was provided by react dropzone. The back-end was built using apollo-server with node.js and utilized graphql for the
                             api endpoints connected to a mongodb database using mongoose odm. The auth0 api provided authentication and authorization
                             on both the front-end and back-end.
                         </p>
@@ -102,6 +102,7 @@ export default function Splatter() {
                     <Swiper
                         navigation={true}
                         loop={true}
+                        grabCursor={true}
                         slidesPerView={1}
                         spaceBetween={10}
                         pagination={{

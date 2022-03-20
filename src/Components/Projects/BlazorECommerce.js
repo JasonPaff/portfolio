@@ -100,6 +100,7 @@ export default function BlazorECommerce() {
                     <Swiper
                         navigation={true}
                         loop={true}
+                        grabCursor={true}
                         slidesPerView={1}
                         spaceBetween={10}
                         pagination={{

@@ -81,20 +81,28 @@ export default function EtsyClone() {
                     <div className="mt-4">
                         <h1 className="text-white underline">How it works</h1>
                         <p className="text-gray-300">
-                            under construction
+                            Etsy clone is based off the popular site Etsy. Users can sign up and create a storefront of their
+                            own and add products that they wish to sell. Stores and their products are created using the
+                            admin dashboard. Shoppers are able to create an account or use their google account to login.
+                            Features like the wishlist, shopping cart, and checkout are only available to registered users.
                         </p>
                     </div>
                     <div className="mt-4">
                         <h1 className="text-white underline">How it was built</h1>
                         <p className="text-gray-300">
-                            under construction
+                            Etsy Clone was built over one week by a two man team for presentation during a full stack
+                            developer bootcamp. The website is served entirely from a back-end node.js/express server.
+                            The pages themselves are built using mustache/handlebar templates with tailwindCSS providing
+                            the styling. A postgres database with sequelize orm is providing the data management. Api integrations
+                            are stripe api for payment processing and google auth for google login integrations.
                         </p>
                     </div>
                 </div>
-                <div className="sm:w-[38rem] sm:h-[30rem] mt-16">
+                <div className="sm:w-[48rem] sm:h-[36rem] mt-16">
                     <Swiper
                         navigation={true}
                         loop={true}
+                        grabCursor={true}
                         slidesPerView={1}
                         spaceBetween={10}
                         pagination={{
