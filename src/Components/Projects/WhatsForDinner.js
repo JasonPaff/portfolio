@@ -66,23 +66,29 @@ export default function WhatsForDinner() {
                     <div className="mt-4">
                         <h1 className="text-white underline">What it is</h1>
                         <p className="text-gray-300">
-                            A mobile first responsive single page web app that helps connect the ingredients
-                            in your fridge to recipes online that contain those ingredients. The dine out portion
-                            of the app connects with google places to show you pictures and reviews from local
-                            restaurants
-                            ranked by rating and sort by category.
+                            Whats For Dinner? is a mobile first responsive single page web app that helps connect
+                            the ingredients in your fridge to recipes online that contain those ingredients. The dine out
+                            portion of the app shows you pictures and reviews from local restaurants ranked by rating and
+                            sorted by category.
+                        </p>
+                    </div>
+                    <div className="mt-4">
+                        <h1 className="text-white underline">How it works</h1>
+                        <p className="text-gray-300">
+                            Users are able to select either the cook at home side of the app or the dine out side. The cook
+                            at home side of the app allows users to enter ingredients they either already own or want to use and
+                            then they can search for recipes online that include those ingredients. The dine out side takes
+                            the users geolocation and returns all the nearby restaurants based on the selected category. Reviews
+                            and photos are loaded automatically in an easy to view format designed for easy mobile scrolling.
                         </p>
                     </div>
                     <div className="mt-4">
                         <h1 className="text-white underline">How it was built</h1>
                         <p className="text-gray-300">
-                            under construction
-                        </p>
-                    </div>
-                    <div className="mt-4">
-                        <h1 className="text-white underline">How it was built</h1>
-                        <p className="text-gray-300">
-                            under construction
+                            Whats for Dinner? was built over the course of 1 week by a 3 man team as part of a front end
+                            presentation during a full stack web development bootcamp. As a single page application the
+                            project was built entirely in javascript/html using vanilla css for styling. api integrations
+                            included google maps, google places and the spoonacular api.
                         </p>
                     </div>
                 </div>
