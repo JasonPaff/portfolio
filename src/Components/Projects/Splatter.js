@@ -98,7 +98,7 @@ export default function Splatter() {
                         </p>
                     </div>
                 </div>
-                <div className="sm:w-[38rem] sm:h-[30rem] mt-16">
+                <div className="sm:w-[48rem] sm:h-[38rem] mt-20">
                     <Swiper
                         navigation={true}
                         loop={true}

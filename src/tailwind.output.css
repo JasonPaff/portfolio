@@ -742,12 +742,12 @@ select {
   margin-top: 2rem;
 }
 
-.ml-20 {
-  margin-left: 5rem;
-}
-
 .mt-20 {
   margin-top: 5rem;
+}
+
+.ml-20 {
+  margin-left: 5rem;
 }
 
 .mb-20 {
@@ -1407,16 +1407,16 @@ select {
     height: 24rem;
   }
 
-  .sm\:h-\[30rem\] {
-    height: 30rem;
+  .sm\:h-\[38rem\] {
+    height: 38rem;
   }
 
-  .sm\:h-\[36rem\] {
-    height: 36rem;
+  .sm\:h-\[42rem\] {
+    height: 42rem;
   }
 
-  .sm\:w-\[38rem\] {
-    width: 38rem;
+  .sm\:w-\[42rem\] {
+    width: 42rem;
   }
 
   .sm\:w-56 {
