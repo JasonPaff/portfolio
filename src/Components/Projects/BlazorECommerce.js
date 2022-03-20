@@ -9,6 +9,7 @@ import {useState} from "react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import BlueHoverDemoButton from "../General/BlueHoverDemoButton";
 
 export default function BlazorECommerce() {
     const [isShowing, setIsShowing] = useState(false);
@@ -31,29 +32,29 @@ export default function BlazorECommerce() {
                     <BlueHoverButton
                         icon={<Github/>}
                         link="https://github.com/JasonPaff/BlazorEcommerceSite"
+                        tooltip="https://github.com/JasonPaff/BlazorEcommerceSite"
+                        tooltipId="blazorGithubTooltip"
                         text="Github Repo"
                     />
                     <BlueHoverButton
                         icon={<LinkIcon className="-ml-1 mr-2 h-5 w-5 text-sky-600" aria-hidden="true"/>}
                         link="https://blazor-ecommerce.herokuapp.com/"
+                        tooltip="https://blazor-ecommerce.herokuapp.com/"
+                        tooltipId="blazorLiveTooltip"
                         text="Live"
                     />
-                    <button
-                        type="button"
-                        onClick={() => {
+                    <BlueHoverDemoButton
+                        icon={<VideoCameraIcon className="-ml-1 mr-2 h-5 w-5 text-sky-600" aria-hidden="true"/>}
+                        text="Demo"
+                        tooltip="animated demo gif modal"
+                        tooltipId="blazorDemoTooltip"
+                        click={() => {
                             setIsShowing(!isShowing);
                             setModalSource('https://storage.googleapis.com/jason-paff-portfolio/Images/BlazorECommerce/blazor-demo.gif');
                             setTitle('Blazor ECommerce Demo');
                             setDescription('');
                         }}
-                        className="transition ease-in-out delay-150 hover:scale-110 duration-300
-                                    inline-flex justify-center px-4 py-2 shadow-sm text-sm font-medium
-                                    rounded-md bg-zinc-900 text-gray-300 hover:bg-zinc-900 hover:text-sky-600
-                                    focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-sky-500"
-                    >
-                        <VideoCameraIcon className="-ml-1 mr-2 h-5 w-5 text-sky-600" aria-hidden="true"/>
-                        <span>Demo</span>
-                    </button>
+                    />
                     <h1 className="text-sm text-gray-400">(heroku server on live link takes 5-10 seconds to spin up)</h1>
                     <div className="mt-2">
                         <ImageTechBadge text={"HTML"} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"}/>

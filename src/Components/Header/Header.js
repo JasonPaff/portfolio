@@ -22,21 +22,29 @@ export default function Header() {
                     <BlueHoverButton
                         link="https://www.linkedin.com/in/jason-paff-b67349209/"
                         imageSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                        tooltip="https://www.linkedin.com/in/jason-paff-b67349209/"
+                        tooltipId="linkedInTooltip"
                         text="LinkedIn"
                     />
                     <BlueHoverButton
                         icon={<Github/>}
                         link="https://github.com/JasonPaff"
+                        tooltip="https://github.com/JasonPaff"
+                        tooltipId="githubTooltip"
                         text="Github"
                     />
                     <BlueHoverButton
                         icon={<MailIcon className="-ml-1 mr-2 h-5 w-5 text-sky-600" aria-hidden="true"/>}
                         link="mailto:jasonpaff@gmail.com"
+                        tooltip="JasonPaff@gmail.com"
+                        tooltipId="emailTooltip"
                         text="Email"
                     />
                     <BlueHoverButton
                         icon={<PhoneIcon className="-ml-1 mr-2 h-5 w-5 text-sky-600" aria-hidden="true"/>}
                         link="tel:1-404-341-8383"
+                        tooltip="404-341-8383"
+                        tooltipId="phoneTooltip"
                         text="Call"
                     />
                     <BlueHoverButton

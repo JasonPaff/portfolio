@@ -24,16 +24,22 @@ export default function FeaturedProject() {
                 <BlueHoverButton
                     icon={<Github/>}
                     link="https://github.com/JasonPaff/TournamentLife"
+                    tooltip="https://github.com/JasonPaff/TournamentLife"
+                    tooltipId="tournamentGithubTooltip"
                     text="Github Repo"
                     />
                 <BlueHoverButton
                     icon={<FolderDownloadIcon className="-ml-1 mr-2 h-5 w-5 text-sky-600" aria-hidden="true"/>}
                     link="https://storage.googleapis.com/jason-paff-portfolio/Tournament%20Life.zip"
+                    tooltip="Zip file with standalone executable"
+                    tooltipId="tournamentExeTooltip"
                     text="Standalone Exe"
                     />
                 <BlueHoverButton
                     icon={<FolderDownloadIcon className="-ml-1 mr-2 h-5 w-5 text-sky-600" aria-hidden="true"/>}
                     link="https://storage.googleapis.com/jason-paff-portfolio/Tournament.Life.Setup.exe"
+                    tooltip="Windows installer"
+                    tooltipId="tournamentInstallTooltip"
                     text="Windows Installer"
                     />
 
