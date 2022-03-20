@@ -50,7 +50,7 @@ export default function Header() {
                     <BlueHoverButton
                         icon={<DocumentDownloadIcon className="-ml-1 mr-2 h-5 w-5 text-sky-600" aria-hidden="true"/>}
                         link="https://storage.googleapis.com/jason-paff-portfolio/resume.pdf"
-                        text="Download CV"
+                        text="Resume"
                     />
                 </div>
             </div>
