@@ -23,9 +23,12 @@ export default function BlueHoverButton(props) {
                 <span>{props.text}</span>
             </button>
             {props.tooltip && (
-            <ReactTooltip id={props.tooltipId} place="bottom" effect="solid">
-                {props.tooltip}
-            </ReactTooltip>)}
+                <ReactTooltip id={props.tooltipId} place="bottom" effect="solid">
+                    <div className="flex flex-col">
+                        <div>{props.tooltip}</div>
+                        <div>{props.tooltipTwo}</div>
+                    </div>
+                </ReactTooltip>)}
         </>
     )
 }

@@ -40,6 +40,7 @@ export default function EtsyClone() {
                         icon={<LinkIcon className="-ml-1 mr-2 h-5 w-5 text-sky-600" aria-hidden="true"/>}
                         link="https://our-etsy.herokuapp.com/"
                         tooltip="https://our-etsy.herokuapp.com/"
+                        tooltipTwo="heroku server can take 5-10 seconds to spin up"
                         tooltipId="estyLiveTooltip"
                         text="Live"
                     />
@@ -55,7 +56,6 @@ export default function EtsyClone() {
                             setDescription('');
                         }}
                     />
-                    <h1 className="text-sm text-gray-400">(heroku server on live link takes 5-10 seconds to spin up)</h1>
                     <div className="mt-2">
                         <ImageTechBadge text={"HTML"} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"}/>
                         <ImageTechBadge text={"TailwindCSS"} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"}/>

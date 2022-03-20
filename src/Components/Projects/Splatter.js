@@ -40,6 +40,7 @@ export default function Splatter() {
                         icon={<LinkIcon className="-ml-1 mr-2 h-5 w-5 text-sky-600" aria-hidden="true"/>}
                         link="https://splatter-app.herokuapp.com/"
                         tooltip="https://splatter-app.herokuapp.com/"
+                        tooltipTwo="heroku server can take 5-10 seconds to spin up"
                         tooltipId="splatterLiveTooltip"
                         text="Live"
                     />
@@ -55,7 +56,6 @@ export default function Splatter() {
                             setDescription('');
                         }}
                     />
-                    <h1 className="text-sm text-gray-400">(heroku server on live link takes 5-10 seconds to spin up)</h1>
                     <div className="mt-2">
                         <ImageTechBadge text={"Javascript"} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"}/>
                         <ImageTechBadge text={"HTML"} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"}/>
