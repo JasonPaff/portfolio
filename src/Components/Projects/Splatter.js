@@ -54,7 +54,7 @@ export default function Splatter() {
                         <VideoCameraIcon className="-ml-1 mr-2 h-5 w-5 text-sky-600" aria-hidden="true"/>
                         <span>Demo</span>
                     </button>
-
+                    <h1 className="text-sm text-gray-400">(heroku server on live link takes 5-10 seconds to spin up)</h1>
                     <div className="mt-2">
                         <ImageTechBadge text={"Javascript"} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"}/>
                         <ImageTechBadge text={"HTML"} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"}/>
@@ -70,21 +70,31 @@ export default function Splatter() {
                     <div className="mt-4">
                         <h1 className="text-white underline">What it is</h1>
                         <p className="text-gray-300">
-                            Splatter is a bug/issue tracking software solution intended to be used internally during the software
-                            development process. Splatter is a role based program, available roles are quality assurance, developer, and admin.
-                            The users role determines which parts of the dashboard they have access too.
+                            Splatter is a role based, multi-user, bug tracking software solution intended to be used by a team of
+                            developers during the software development process. Splatter was designed with a clean, professional
+                            layout to streamline with great attention paid to usability and clarity.
                         </p>
                     </div>
                     <div className="mt-4">
                         <h1 className="text-white underline">How it works</h1>
                         <p className="text-gray-300">
-                            under construction
+                            Splatter is a roles based account which means the role attached to your account (quality assurance, developer,
+                            admin) determines which dashboard options are available to you. The quality assurance accounts are tasked
+                            with finding bugs/issues and creating tickets. The admin (project manager) accounts then assign
+                            those tickets to the developer accounts to be dealt with. Team members can use the internal messaging system
+                            to communicate in real time through the app as well.
                         </p>
                     </div>
                     <div className="mt-4">
                         <h1 className="text-white underline">How it was built</h1>
                         <p className="text-gray-300">
-                            under construction
+                            Splatter was a solo project built over the course of one and a half weeks for presentation during
+                            a full stack development bootcamp. The front-end was built in javascript using the react framework with redux.
+                            CSS stying was provided by TailwindCSS utilizing libraries such as headlessUI and HeroIcons. The ticket statistic
+                            charts were created using the recharts react library. Drag and drop functionality for saving screenshots with a
+                            ticket was provided by react dropzone. The back-end was built using apollo-server and utilized graphql for the
+                            api endpoints connected to a mongodb database using mongoose odm. The auth0 api provided authentication and authorization
+                            on both the front-end and back-end.
                         </p>
                     </div>
                 </div>

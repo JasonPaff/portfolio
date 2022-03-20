@@ -3,7 +3,7 @@
 export default function ProjectTabs(props) {
     return (
         <div className="flex flex-row flex-wrap items-center justify-center relative z-0 mt-8
-            inline-flex shadow-sm rounded-md">
+            inline-flex border-gray-700 shadow-sm rounded-md">
             <ProjectButton projectText="Splatter" setProjectText="Splatter" selected={props.selected}
                            setProject={props.setProject} isBeginning={true} isEnd={false}/>
             <ProjectButton projectText="Etsy Clone" setProjectText="EtsyClone" selected={props.selected}

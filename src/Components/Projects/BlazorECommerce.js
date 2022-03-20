@@ -54,7 +54,7 @@ export default function BlazorECommerce() {
                         <VideoCameraIcon className="-ml-1 mr-2 h-5 w-5 text-sky-600" aria-hidden="true"/>
                         <span>Demo</span>
                     </button>
-
+                    <h1 className="text-sm text-gray-400">(heroku server on live link takes 5-10 seconds to spin up)</h1>
                     <div className="mt-2">
                         <ImageTechBadge text={"HTML"} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"}/>
                         <ImageTechBadge text={"C#"} src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"}/>
