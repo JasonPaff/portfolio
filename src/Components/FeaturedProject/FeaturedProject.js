@@ -53,25 +53,23 @@ export default function FeaturedProject() {
                     <ImageTechBadge text={"MVVM"}/>
                 </div>
                 <div className="mt-4">
-                    <h1 className="text-white underline">How it works</h1>
+                    <h1 className="text-white underline">What it is</h1>
                     <p className="text-gray-300">
                         Tournament Life is a full-featured cross-platform application that provides detailed
                         results tracking, filtering, and displaying for professional poker players and serious
-                        recreational players. Professional online players can play upwards of 50 tournaments a night and
-                        you
-                        can imagine
-                        how tiring it would be to enter even just basic details about your tournaments manually into a
-                        spreadsheet every night.
+                        recreational players.
                     </p>
-                    <p className="text-gray-300 mt-4">
+                </div>
+                <div className="mt-4">
+                    <h1 className="text-white underline">How it works</h1>
+                    <p className="text-gray-300">
                         The software was built from the ground up to make it as easy as possible to track a high level
-                        of data
-                        with minimal input from the user while playing. The idea is that you will create (or import
-                        someone else's)
-                        pre-made tournament templates and then use those templates when you sit down to play to quickly
-                        start tournaments.
-                        You can even group those tournaments into sessions of tournaments that can be launched with one
-                        click.
+                        of data with minimal input from the user while playing. The idea is that you will create (or import
+                        someone else's) pre-made tournament templates and then use those templates when you sit down to play to quickly
+                        start tournaments. The templates contain all the information for the tournament such as name, buy-in,
+                        start time, starting stack sizes, blind levels, late registration length, and much more. The user just
+                        has to enter the few variables that change every night such as number of players registered, finishing
+                        position and any prize money won.
                     </p>
                 </div>
                 <div className="mt-4">
@@ -79,10 +77,10 @@ export default function FeaturedProject() {
                     <p className="text-gray-300">
                         Tournament Life is a C# Windows Presentation Foundation application utilizing the .Net Core
                         framework to run on Windows, Mac, and Linux systems. The software was developed by one person
-                        (40k line codebase) as a commercially viable product and is used by numerous
-                        online poker players every night. The user interface is built entirely in
-                        XAML utilizing Syncfusion WPF components. The data is managed by a backend SQL database using entity
-                        framework for the ORM. Tournament Life was built from the start up to fully conform to the MVVM architectural pattern.
+                        (40k line codebase) as a commercially viable product and is used by numerous online poker
+                        players every night. The user interface is built entirely in XAML utilizing Syncfusion WPF
+                        components. The data is managed by a backend SQL database using entity framework for the ORM.
+                        Tournament Life was built from the start up to fully conform to the MVVM architectural pattern.
                         Great care was taken to conform to SOLID principles and other best practices.
                     </p>
                 </div>
