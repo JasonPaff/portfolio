@@ -23,7 +23,7 @@ export default function EtsyClone() {
                     gap-x-8 sm:px-6 sm:py-8 lg:max-w-screen-2xl lg:px-8 lg:grid-cols-2">
                 <div>
                     <h2 className="mb-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
-                        Etsy Clone
+                        Betsy
                     </h2>
                     <h2 className="text-lg text-sky-500 mb-2">
                         A community driven ecommerce experience.

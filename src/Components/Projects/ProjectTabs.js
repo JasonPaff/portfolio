@@ -6,7 +6,7 @@ export default function ProjectTabs(props) {
             inline-flex border-gray-700 shadow-sm rounded-md">
             <ProjectButton projectText="Splatter" setProjectText="Splatter" selected={props.selected}
                            setProject={props.setProject} isBeginning={true} isEnd={false}/>
-            <ProjectButton projectText="Etsy Clone" setProjectText="EtsyClone" selected={props.selected}
+            <ProjectButton projectText="Betsy" setProjectText="EtsyClone" selected={props.selected}
                            setProject={props.setProject}  isBeginning={false} isEnd={false}/>
             <ProjectButton projectText="Whats For Dinner?" setProjectText="WhatsForDinner" selected={props.selected}
                            setProject={props.setProject}  isBeginning={false} isEnd={false}/>

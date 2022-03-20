@@ -72,7 +72,7 @@ export default function Splatter() {
                         <p className="text-gray-300">
                             Splatter is a role based, multi-user, bug tracking software solution intended to be used by a team of
                             developers during the software development process. Splatter was designed with a clean, professional
-                            layout to streamline with great attention paid to usability and clarity.
+                            layout to streamline the process with great attention paid to usability and clarity.
                         </p>
                     </div>
                     <div className="mt-4">
