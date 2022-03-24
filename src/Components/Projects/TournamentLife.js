@@ -21,6 +21,9 @@ export default function TournamentLife() {
                     <h2 className="mb-2 text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
                         Tournament Life
                     </h2>
+                    <h2 className="text-lg text-sky-500 mb-2">
+                        Results tracking for professional poker players.
+                    </h2>
                     <BlueHoverButton
                         icon={<Github/>}
                         link="https://github.com/JasonPaff/TournamentLife"
