@@ -7,7 +7,7 @@ import BlueHoverButton from "../General/BlueHoverButton";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {Navigation, Pagination} from "swiper";
 
-export default function FeaturedProject() {
+export default function TournamentLife() {
     const [isShowing, setIsShowing] = useState(false);
     const [modalSource, setModalSource] = useState(' ');
     const [title, setTitle] = useState(' ');

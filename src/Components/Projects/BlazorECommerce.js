@@ -21,7 +21,7 @@ export default function BlazorECommerce() {
         <>
             <div
                 className="max-w-2xl mx-auto py-4 px-4 grid grid-cols-1 gap-y-16
-                gap-x-8 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8 lg:grid-cols-2">
+                gap-x-8 sm:px-6 sm:py-8 lg:max-w-screen-2xl lg:px-8 lg:grid-cols-2">
                 <div>
                     <h2 className="mb-2 text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
                         Blazor ECommerce

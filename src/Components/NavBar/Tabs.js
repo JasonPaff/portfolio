@@ -5,8 +5,8 @@ import EnabledTab from "./EnabledTab";
 import AboutMe from "../AboutMe/AboutMe";
 import BlankPanel from "./BlankPanel";
 import Skills from "../Skills/Skills";
-import FeaturedProject from "../FeaturedProject/FeaturedProject";
 import Projects from "../Projects/Projects";
+import Splatter from "../Projects/Splatter";
 
 export default function Tabs() {
     return (
@@ -37,7 +37,7 @@ export default function Tabs() {
                         <Tab.Panels>
                             <Tab.Panel><BlankPanel/></Tab.Panel>
                             <Tab.Panel><AboutMe/></Tab.Panel>
-                            <Tab.Panel><FeaturedProject/></Tab.Panel>
+                            <Tab.Panel><Splatter/></Tab.Panel>
                             <Tab.Panel><Projects/></Tab.Panel>
                             <Tab.Panel><Skills/></Tab.Panel>
                         </Tab.Panels>
